@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>match </title>
+    
+</head>
+<body>
+    <script>
+      let givennumber=13;
+let value=parseInt(prompt("Enter the number"));
+document.write(`Given number : ${givennumber}<br><br>New number : ${value}<br><br>`);
+
+let difference=function(givennumber,value){
+  if(value<givennumber){
+    document.write(`Difference between two numbers : ${value-givennumber}<br><br>`);
+  }
+  else if(value>givennumber){
+   let c=value-givennumber;
+   if(c>=givennumber){
+   document.write(`Difference between two numbers : ${c}<br><br>`);
+   document.write(`Double the absolute value : ${c*2}`);
+   }
+   else{
+    document.write(`Difference between two numbers : ${c}<br><br>`);
+   }
+  }
+  else{
+    document.write(0);
+  }
+}
+
+           </script>
+</body>
+</html>
